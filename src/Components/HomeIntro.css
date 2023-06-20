@@ -1,0 +1,64 @@
+.home-intro{
+    padding: auto;
+    width: auto;
+    height: auto;
+    background-color: #8C7AD2;
+}
+
+.home-intro-col{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.home-intro-col p, h1, h4{
+    color: aliceblue;
+    margin-bottom: 2vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.home-intro-btn{
+    display: inline-block;
+    
+    margin: 3vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 3rem;
+    transition: color .30s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    align-content: end;
+    align-items: end;
+    align-self: flex-end;
+
+}
+
+
+.home-intro-btn-primary {
+    --bs-btn-color: #4B3A93;
+    --bs-btn-bg: #FFFFFF;
+    --bs-btn-border-color: #FFFFFF;
+    --bs-btn-hover-color: #FFFFFF;
+    --bs-btn-hover-bg: #4B3A93;
+    --bs-btn-hover-border-color: #4B3A93;
+    --bs-btn-focus-shadow-rgb: #656565;
+    --bs-btn-active-color: #FFFFFF;
+    --bs-btn-active-bg: #4B3A93;
+    --bs-btn-active-border-color: #4B3A93;
+    --bs-btn-active-shadow: inset 0 3px 5px #656565;
+    --bs-btn-disabled-color: #656565;
+    --bs-btn-disabled-bg: #656565;
+    --bs-btn-disabled-border-color: #656565;
+}
+
+.man-box{
+    margin-top:3vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+
+}

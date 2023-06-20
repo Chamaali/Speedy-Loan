@@ -1,0 +1,32 @@
+.footer{
+    padding: auto;
+    width: auto;
+    height: auto;
+    background-color: #2C2C2C;
+    
+}
+
+
+.footer-col{
+    color: aliceblue;
+    margin-top: 4%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+.footer-col img{
+    margin: 5%;
+   
+}
+
+.Copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Copyright small{
+    color: aliceblue;
+    margin: 4%;
+
+}

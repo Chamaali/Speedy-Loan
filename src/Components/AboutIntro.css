@@ -1,0 +1,30 @@
+.about-intro{
+    padding: auto;
+    width: auto;
+    height: auto;
+    background-color: #8C7AD2;
+}
+
+.about-intro-title{
+    padding-top: 3vw ;
+
+}
+
+.about-intro-title h1{
+    color: white;
+}
+
+.about-intro-body{
+    padding-bottom: 3vw ;
+}
+
+.about-intro-body p{
+ color: white;
+ font-size: 20px;
+ font-weight: 300px;
+ font-family: "Arial", "sans-serif";
+ text-align: justify;
+}
+
+
+

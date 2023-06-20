@@ -1,0 +1,48 @@
+.nav-link {
+    display: block;
+    font-size: 1.2vw;
+    font-weight:bold;
+    color: #3B6F3E;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    /* align-self: center; */
+}
+
+.me-auto {
+    margin-right: auto!important;
+    align-items: center;
+}
+
+
+.nav-btn {
+    display: inline-block;
+    
+    margin: 2vw;
+    font-size: 1vw;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 3rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    align-content: end;
+    align-items: end;
+    align-self: flex-end;
+}
+
+.nav-btn-primary {
+    --bs-btn-color: #FFFFFF;
+    --bs-btn-bg: #4B3A93;
+    --bs-btn-border-color: #4B3A93;
+    --bs-btn-hover-color: #FFFFFF;
+    --bs-btn-hover-bg: #8C7AD2;
+    --bs-btn-hover-border-color: #8C7AD2;
+    --bs-btn-focus-shadow-rgb: #656565;
+    --bs-btn-active-color: #FFFFFF;
+    --bs-btn-active-bg: #8C7AD2;
+    --bs-btn-active-border-color: #8C7AD2;
+    --bs-btn-active-shadow: inset 0 3px 5px #656565;
+    --bs-btn-disabled-color: #656565;
+    --bs-btn-disabled-bg: #656565;
+    --bs-btn-disabled-border-color: #656565;
+}

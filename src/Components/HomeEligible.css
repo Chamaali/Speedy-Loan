@@ -1,0 +1,41 @@
+.home-eligible{
+    padding: auto;
+    width: auto;
+    height: auto;
+    padding: 3vw;
+    background-color: rgb(221, 221, 221);
+}
+
+.home-eligible-title h1{
+    color: black;
+    text-align: center;
+}
+
+.home-eligible-list{
+    list-style: inside;
+    list-style-image: url("tick-symbol.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-eligible-box{
+    padding: auto;
+    width: 400px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 2vw;
+
+}
+
+.home-eligible-box p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+} 
