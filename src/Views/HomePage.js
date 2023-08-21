@@ -8,7 +8,7 @@ import HomeEligible from '../Components/HomeEligible'
 
 const HomePage = () => {
   return (
-    <div>
+    <div id="homePage">
         <NavigationBar />
         <HomeIntro />
         <HomeServices />

@@ -1,0 +1,22 @@
+.repayment-intro{
+    padding: auto;
+    width: auto;
+    height: auto;
+    background-color: #8C7AD25E;
+}
+
+.repayment-intro-title{
+    padding-top: 25px;
+    display: grid;
+    justify-content: center;
+}
+
+.repayment-intro-title h1{
+    color: black;
+}
+
+.repayment-intro-para{
+    padding-bottom: 25px;
+    display: grid;
+    justify-content: center;
+}
