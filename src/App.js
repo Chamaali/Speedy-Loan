@@ -1,18 +1,27 @@
 
 import AboutPage from "./Views/AboutPage";
 import HomePage from "./Views/HomePage";
-import LoginPage from "./Views/LoginPage";
-import RepaymentPage from "./Views/RepaymentPage";
 import SignInPage from "./Views/SignInPage";
-import ContactUsPage from "./Views/ContactUsPage";
-
+import SignRequestPageInPage from "./Views/SignInPage";
+import { BrowserRouter, Routes, Route  } from 'react-router-dom';
 
 function App() {
-  return (
-    <div>
-        <HomePage />
-    </div>
+  return (    
+    <BrowserRouter>
+        <SignInPage />
+        {/* <Routes>
+             <Route index element={<HomePage />} />
+             <Route path="/about" element={<AboutPage />} />
+             <Route path="/repayment" element={<RepaymentPage />} />
+             <Route path="/contactUs" element={<ContactUsPage />} />
+             <Route path="/apply" element={<LoanApplicationPage />} />
+             <Route path="/signin" element={<SignInPage />} />
+         </Routes> */}
+    </BrowserRouter>
   );
 }
 
 export default App;
+
+
+

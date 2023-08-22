@@ -1,16 +1,16 @@
 import React from 'react'
-import PersonalLoan from '../Components/PersonalLoan'
 import NavigationBar from '../Components/NavigationBar'
+import Request from '../Components/Request'
 import Footer from '../Components/Footer'
 
-const PersonalLoanPage = () => {
+const RequestPage = () => {
   return (
     <div>
         <NavigationBar/>
-        <PersonalLoan/>
+        <Request/>
         <Footer/>
     </div>
   )
 }
 
-export default PersonalLoanPage
+export default RequestPage

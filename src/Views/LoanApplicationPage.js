@@ -1,17 +1,17 @@
 import React from 'react'
-import LoginForm from '../Components/LoanApplication'
+import LoanApplication from '../Components/LoanApplication'
 import NavigationBar from '../Components/NavigationBar'
 import Footer from '../Components/Footer'
 
 
-const LoginPage = () => {
+const LoanApplicationPage = () => {
   return (
     <div id="logInPage">
         <NavigationBar />
-        <LoginForm />
+        <LoanApplication />
         <Footer />
     </div>
   )
 }
 
-export default LoginPage
+export default LoanApplicationPage

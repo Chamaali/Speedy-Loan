@@ -7,14 +7,14 @@ import { Container } from 'react-bootstrap'
 
 const AboutPage = () => {
   return (
-    <Container>
+   
         <div id='aboutPage'>
             <NavigationBar />
             <AboutIntro />
             <AboutBenifits />
             <Footer />
         </div>
-    </Container>
+    
     
   )
 }
