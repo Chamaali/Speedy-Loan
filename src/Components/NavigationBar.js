@@ -7,7 +7,9 @@ const NavigationBar = () => {
 
         <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
-            <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+            <Navbar.Brand href="./src/Views/HomePage.js">
+                <img src='./Assests/Images/logo.png' width="50%" alt="logo"/>
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
