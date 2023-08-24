@@ -2,13 +2,15 @@
 import AboutPage from "./Views/AboutPage";
 import HomePage from "./Views/HomePage";
 import SignInPage from "./Views/SignInPage";
-import SignRequestPageInPage from "./Views/SignInPage";
+import ContactUsPage from "./Views/ContactUsPage";
 import { BrowserRouter, Routes, Route  } from 'react-router-dom';
+import OnlinePayment from "./Components/OnlinePayment";
+import OnlinePaymentPage from "./Views/OnlinePaymentPage";
 
 function App() {
   return (    
     <BrowserRouter>
-        <HomePage />
+        <OnlinePaymentPage />
         {/* <Routes>
              <Route index element={<HomePage />} />
              <Route path="/about" element={<AboutPage />} />

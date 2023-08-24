@@ -1,0 +1,27 @@
+h3{
+ text-align: center;
+ margin: 80px;
+}
+
+.box{
+    padding: 50px;
+    background-color: #8C7AD2;
+    margin: 50px;
+    margin-left: 350px;
+    margin-Right: 350px;
+
+    border-radius: 15px;
+}
+
+.confirm-button{
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+.confirm-button:hover{
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+
+}

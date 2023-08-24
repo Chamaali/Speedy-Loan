@@ -1,0 +1,18 @@
+.box{
+    padding: 50px;
+    padding-left: 70px;
+    background-color: #715bca;
+    color: aliceblue;
+    border-radius: 10px;
+    margin-top:45px ;
+    margin-bottom: 80px;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    font-weight: 500;
+    padding-top: 15px;
+}

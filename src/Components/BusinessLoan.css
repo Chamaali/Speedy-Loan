@@ -1,0 +1,49 @@
+.hd1{
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+
+.hd4{
+    color: black;
+    text-align: center;
+}
+
+.padding-box{
+    background-color:#8C7AD2 ;
+    padding: 25px;
+    border-radius: 25px;
+    margin: 30px;
+}
+
+.hd5{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+}
+
+.hd5in{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.crd{
+    padding: 25px;
+    height: 200px;
+}
+
+.crd:hover{
+    
+    
+}
+
+.col{
+    padding: 25px;
+}
+
+.pa{
+    padding-left: 200px;
+    padding-Right: 200px;
+    text-align: justify;
+
+}
